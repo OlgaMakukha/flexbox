@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Montserrat", sans-serif;
+
+    background: #d0f1de;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1110px;
+
+    margin: 0 auto;
+
+    border-radius: 50px;
+    background: #fff;
+}
+
+.image {
+    width: 149px;
+    height: 188px;
+}
+
+.main-section {
+    margin: 85px 0;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+.main-title {
+    padding-top: 70px;
+    margin-bottom: 25px;
+
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+
+    color: #18181b;
+}
+
+.subtitle {
+    margin-bottom: 76px;
+
+    font-size: 25px;
+    text-align: center;
+
+    color: #fad9e2;
+}
+
+.row > div {
+    margin-bottom: 100px;
+
+    display: flex;
+    gap: 80px;
+}
+
+.row > div:nth-child(1) {
+    justify-content: center;
+}
+
+.row > div:nth-child(2) {
+    justify-content: space-between;
+}
+
+.row > div:last-child {
+    width: 356px;
+
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 40px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+
+.column {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.column > div {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin-bottom: 150px;
+}
+
+.column > div:nth-child(2) {
+    flex-direction: column-reverse;
+    gap: 40px;
+}
+
+.column > div:nth-child(3) {
+    align-self: end;
+    gap: 0;
+}
+
+.column > div:nth-child(3) > .image:nth-child(3) {
+    order: 4;
+}
+
+.column > div:nth-child(3) > .capybara_anfas {
+    order: 3;
+}
+
+.column-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 72px;
+}
+
+.column-wrap > div {
+    display: flex;
+    flex-flow: column wrap;
+    column-gap: 102px;
+    row-gap: 25px;
+
+    width: 400px;
+    height: 615px;
+}
+
+.column-wrap > div:nth-child(1) {
+    justify-content: end;
+}
+
+.column-wrap > div:nth-child(2) > .image:nth-child(4) {
+    order: 5;
+}
+
+.column-wrap > div:nth-child(2) > .image:nth-child(5) {
+    order: 4;
+}
+
+.column-wrap > div:nth-child(3) {
+    justify-content: center;
+    margin-bottom: 72px;
+}
